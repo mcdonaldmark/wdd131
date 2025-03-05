@@ -53,7 +53,7 @@ main {
     background: white;
     margin-top: 25px;
     margin-left: 50px;
-    max-width: auto;
+    max-width: 100%;
 }
 
 footer {
@@ -142,4 +142,8 @@ ul.a {
     text-align: left;
     font-size: 25px;
     margin-top: 300px;
+}
+
+li {
+    margin-bottom: 30px;
 }
