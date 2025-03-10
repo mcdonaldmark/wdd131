@@ -54,7 +54,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: #00308F;
     text-decoration: none;
     font-weight: 1000;
 }
@@ -131,7 +131,7 @@ footer {
     display: flex;
     flex-direction: column;
     list-style: none;
-    color: #fff;
+    color: #00308F;
     margin-bottom: -500px;
 }
 
@@ -139,12 +139,12 @@ footer {
     display: none;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #00308F;
 }
 
 a:hover {
     text-decoration: none;
-    color: yellow;
+    color: grey;
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
@@ -187,7 +187,7 @@ a:hover {
         max-width: 700px;
         margin-left: 1400px;
         margin-top: 0px;
-        margin-bottom: 75px;    
+        margin-bottom: 75px;
     }
 
     .hyplink {
@@ -204,7 +204,7 @@ a:hover {
 
     a:hover {
         text-decoration: underline;
-        color: yellow;
+        color: grey;
     }
 
     figure,
