@@ -8,11 +8,11 @@ body {
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background: #00308F;
+    background: brown;
 }
 
 header {
-    background: #00308F;
+    background: brown;
     grid-column: 1 / 4;
     padding-left: 1rem;
     color: white;
@@ -36,7 +36,7 @@ h1 {
     position: absolute;
     bottom: 800px;
     right: 1500px;
-    background-color: lightblue;
+    background-color: brown;
     color: white;
     padding-left: 20px;
     padding-right: 250px;
@@ -44,24 +44,22 @@ h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     z-index: 1;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .head3 {
     position: absolute;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
+    background-color: brown;
     color: white;
     padding-left: 20px;
-    padding-right: 250px;
+    padding-right: 140px;
     font-size: 25px;
     bottom: 300px;
-    right: 100px;
+    right: 120px;
     padding-top: 40px;
     padding-bottom: 40px;
     z-index: 1;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .head4 {
@@ -69,37 +67,36 @@ h1 {
     background-color: white;
     color: black;
     padding-left: 20px;
-    padding-right: 250px;
+    padding-right: 120px;
     font-size: 25px;
     top: 120px;
     left: 80px;
-    padding-top: 150px;
+    padding-top: 170px;
     padding-bottom: 90px;
-    border: solid green 20px;
-    text-align: right;
+    border: solid white;
+    text-align: left;
     line-height: 40px;
+    opacity: 0.7;
 }
 
 .head5 {
     position: absolute;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: white;
     color: black;
     padding-left: 20px;
-    padding-right: 250px;
+    padding-right: 120px;
     font-size: 25px;
     top: 620px;
     right: 40px;
-    padding-top: 150px;
+    padding-top: 170px;
     padding-bottom: 40px;
-    border: solid green 20px;
     text-align: right;
     line-height: 40px;
+    opacity: 0.7;
 }
 
 footer {
-    background: #00308F;
+    background: brown;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
@@ -114,4 +111,10 @@ footer {
     width: 100%;
     height: auto;
     position: relative;
+}
+
+.weather {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
 }
