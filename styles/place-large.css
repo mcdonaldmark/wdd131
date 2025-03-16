@@ -5,9 +5,8 @@
 }
 
 body {
-    display: grid;
+    display:block;
     height: 100vh;
-    grid-template: auto 1fr auto / 950px 1fr auto;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
@@ -38,10 +37,11 @@ footer {
     color: white;
     font-weight: 900;
     line-height: 30px;
+    margin-top: 400px;
 }
 
 .hero {
-    margin-left: -20px;
+    background-size: 100% 100%;
     width: 100%;
     height: auto;
     position: relative;
