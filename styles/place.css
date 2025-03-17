@@ -145,8 +145,8 @@ footer {
         padding-bottom: 40px;
         z-index: 1;
         opacity: 0.9;
-        top: -50px;
-        left: -70px;
+        top: -30px;
+        left: -40px;
     }
 
     .head3 {
@@ -156,7 +156,7 @@ footer {
         padding-left: 50px;
         padding-right: 140px;
         font-size: 25px;
-        bottom: 1300px;
+        bottom: 1260px;
         right: 210px;
         padding-top: 40px;
         padding-bottom: 40px;
@@ -171,7 +171,7 @@ footer {
         padding-left: 20px;
         padding-right: 120px;
         font-size: 25px;
-        top: -50px;
+        top: 10px;
         left: 80px;
         padding-top: 170px;
         padding-bottom: 90px;
@@ -188,8 +188,8 @@ footer {
         padding-left: 20px;
         padding-right: 120px;
         font-size: 25px;
-        bottom: 1060px;
-        right: 40px;
+        bottom: 1000px;
+        right: 70px;
         padding-top: 170px;
         padding-bottom: 40px;
         text-align: left;
@@ -217,7 +217,7 @@ footer {
 
     .weather {
         position: absolute;
-        bottom: 30px;
-        left: 230px;
+        bottom: -20px;
+        left: 375px;
     }
 }
