@@ -1,56 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Country</title>
+    <title>Place</title>
     <meta name="description" content="Country">
     <meta name="author" content="Mark McDonald">
     <script src="scripts/place.js" defer></script>
-    <link rel="stylesheet" href="styles/place-large.css">
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-larger.css">
 </head>
-
 <body>
     <header>
-        <h1>Utah - The Beehive or Honey State</h1>
+        <h1 class="heading">Utah - The Beehive or Honey State</h1>
     </header>
-        <div class="container2">
-            <picture>
-                <source class="hero" srcset="images/arches.webp" media="(min-width: 1000px)">
-                <source class="hero" srcset="images/arches.webp" media="(min-width: 700px)">
-                <img class="hero" src="images/arch.webp" alt="Utah Arch" width="500" height="250">
-            </picture>
-            <div class="head2">
-                <h2>Data</h2>
-            </div>
-            <div class="head4">
-                <p><b>Area:</b> 84,899 sq mi</p>
-                <p><b>Population:</b> 3,503,613</p>
-                <p><b>Capital:</b> Salt Lake City</p>
-                <p><b>Language:</b> English</p>
-                <p><b>Currency:</b> US Dollar</p>
-                <p><b>Timezone:</b> MDT</p>
-                <p><b>Calling Code:</b> (801)</p>
-                <p><b>Internal TLD:</b> .gov, .edu, .mil</p>
-            </div>
-            <div class="head3">
-                <h2>Weather</h2>
-                <img class="weather" src="images/weather_icon.svg" alt="Weather Icon" width="75" height="75">
-            </div>
-            <div class="head5">
-                <p><b>Temperature:</b>57°F</p>
-                <p><b>Conditions:</b>Cloudy</p>
-                <p><b>Wind:</b>14 mph</p>
-                <p><b>Wind Chill:</b>40°F</p>
-            </div>
-        </div>
-        </main>
-        <footer>
-            <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
-            <p class="text">Last Modified: <span id="modified"></span></p>
-        </footer>
+    <main>
+        <img id="bannerimage" src="images/arches.webp" alt="Utah Arches">
+    </main>
+    <footer>
+        <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
+        <p class="text">Last Modified: <span id="modified"></span></p>
+    </footer>
 </body>
-
 </html>
