@@ -88,11 +88,6 @@ footer {
     margin-top: 1000px;
 }
 
-.hero {
-    display: block;
-    margin-top: -25px;
-}
-
 .weather {
     position: absolute;
     bottom: 90px;
@@ -101,7 +96,7 @@ footer {
 
 
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+@media (min-width: 40.0em) {
     * {
         margin: 0px;
         padding: 0;
