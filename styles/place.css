@@ -154,11 +154,11 @@ footer {
         position: absolute;
         background-color: brown;
         color: white;
-        padding-left: 50px;
+        padding-left: 30px;
         padding-right: 140px;
         font-size: 25px;
-        bottom: 1260px;
-        right: 210px;
+        bottom: 1270px;
+        right: 250px;
         padding-top: 40px;
         padding-bottom: 40px;
         z-index: 1;
@@ -191,7 +191,7 @@ footer {
         font-size: 25px;
         bottom: 1000px;
         right: 70px;
-        padding-top: 170px;
+        padding-top: 180px;
         padding-bottom: 40px;
         text-align: left;
         line-height: 40px;
