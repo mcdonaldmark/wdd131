@@ -8,8 +8,8 @@
     <meta name="description" content="Country">
     <meta name="author" content="Mark McDonald">
     <script src="scripts/place.js" defer></script>
-    <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
 </head>
 
 <body>
@@ -18,7 +18,11 @@
     </header>
     <d>
         <div class="container2">
-            <img class="hero" src="images/arches.webp" alt="Utah City">
+            <picture>
+                <source class="hero" srcset="images/arches.webp" media="(min-width: 1000px)">
+                <source class="hero" srcset="images/arches.webp" media="(min-width: 500px)">
+                <img class="hero" src="images/arch.webp" alt="Temple name and location" width="500" height="250">
+            </picture>
             <div class="head2">
                 <h2>Data</h2>
             </div>

@@ -34,8 +34,8 @@ h1 {
 
 .head2 {
     position: absolute;
-    bottom: 800px;
-    right: 1500px;
+    top: 150px;
+    left: 50px;
     background-color: brown;
     color: white;
     padding-left: 20px;
@@ -54,7 +54,7 @@ h1 {
     padding-left: 20px;
     padding-right: 140px;
     font-size: 25px;
-    bottom: 300px;
+    bottom: 340px;
     right: 120px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -86,7 +86,7 @@ h1 {
     padding-left: 20px;
     padding-right: 120px;
     font-size: 25px;
-    top: 620px;
+    bottom: 120px;
     right: 40px;
     padding-top: 170px;
     padding-bottom: 40px;
