@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,22 @@
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-larger.css">
 </head>
+
 <body>
     <header>
         <h1 class="heading">Utah - The Beehive or Honey State</h1>
     </header>
     <main>
-        <img id="bannerimage" src="images/arches.webp" alt="Utah Arches">
+        <picture>
+            <source srcset="images/arch.webp" media="min-width: 1000px">
+            <source srcset="images/arch.webp" media="min-width: 550px">
+            <img id="bannerimage" src="images/arches.webp" alt="Utah Arches" width="400" height="200">
+        </picture>
     </main>
     <footer>
         <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
         <p class="text">Last Modified: <span id="modified"></span></p>
     </footer>
 </body>
+
 </html>
