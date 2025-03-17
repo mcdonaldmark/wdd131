@@ -5,10 +5,12 @@
 }
 
 body {
-    display: block;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background: brown;
+    background: white;
 }
 
 header {
@@ -34,65 +36,52 @@ h1 {
 
 .head2 {
     position: absolute;
-    top: 150px;
-    left: 50px;
-    background-color: brown;
-    color: white;
-    padding-left: 20px;
-    padding-right: 250px;
-    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    z-index: 1;
-    opacity: 0.9;
 }
 
 .head3 {
     position: absolute;
-    background-color: brown;
-    color: white;
-    padding-left: 20px;
-    padding-right: 140px;
+    color: black;
     font-size: 25px;
-    bottom: 340px;
-    right: 120px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    z-index: 1;
-    opacity: 0.9;
+    margin-bottom: -950px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    margin-right: -70px;
 }
 
 .head4 {
     position: absolute;
-    background-color: white;
     color: black;
     padding-left: 20px;
-    padding-right: 120px;
-    font-size: 25px;
-    top: 120px;
-    left: 80px;
-    padding-top: 170px;
-    padding-bottom: 90px;
-    border: solid white;
-    text-align: left;
+    padding-right: 30px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    margin-top: 300px;
+    text-align: center;
     line-height: 40px;
-    opacity: 0.7;
+    margin-top: 130px;
 }
 
 .head5 {
     position: absolute;
-    background-color: white;
+    background-color: transparent;
     color: black;
     padding-left: 20px;
     padding-right: 120px;
-    font-size: 25px;
-    bottom: 120px;
-    right: 40px;
-    padding-top: 170px;
-    padding-bottom: 40px;
-    text-align: left;
+    font-size: 15px;
+    text-align: center;
     line-height: 40px;
-    opacity: 0.7;
+    margin-bottom: -950px;
+    margin-right: 20px;
 }
 
 footer {
@@ -103,7 +92,7 @@ footer {
     color: white;
     font-weight: 900;
     line-height: 30px;
-    margin-top: -10px;
+    margin-top: 1000px;
 }
 
 .hero {
@@ -157,13 +146,11 @@ footer {
 
     .head2 {
         position: absolute;
-        top: 150px;
-        left: 50px;
         background-color: brown;
         color: white;
         padding-left: 20px;
-        padding-right: 250px;
-        font-size: 25px;
+        padding-right: 50px;
+        font-size: 20px;
         padding-top: 40px;
         padding-bottom: 40px;
         z-index: 1;
