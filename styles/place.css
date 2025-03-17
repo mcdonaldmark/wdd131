@@ -9,11 +9,12 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     background: white;
-    width: 100%;
+    max-width: 100% !important;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+
 }
 
 header {
