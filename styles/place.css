@@ -36,7 +36,7 @@ h1 {
 
 .head2 {
     position: absolute;
-    margin-top: 170px;
+    margin-top: 150px;
     margin-left: 100px;
     text-align: center;
     color: black;
@@ -55,6 +55,9 @@ h1 {
     font-size: 20px;
     text-align: center;
     margin-right: -30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .head4 {
@@ -65,10 +68,9 @@ h1 {
     background-color: transparent;
     border: transparent;
     font-size: 15px;
-    margin-top: 300px;
+    margin-top: 100px;
     text-align: center;
     line-height: 40px;
-    margin-top: 130px;
 }
 
 .head5 {
@@ -97,8 +99,8 @@ footer {
 
 .weather {
     position: absolute;
-    bottom: 90px;
-    left: 40px;
+    margin-bottom: 90px;
+    margin-left: -150px;
 }
 
 
