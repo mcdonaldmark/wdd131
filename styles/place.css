@@ -54,10 +54,7 @@ h1 {
     background-color: transparent;
     font-size: 20px;
     text-align: center;
-    margin-right: -30px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    margin-right: -100px;
 }
 
 .head4 {
@@ -82,8 +79,8 @@ h1 {
     font-size: 15px;
     text-align: center;
     line-height: 40px;
-    margin-bottom: -950px;
-    margin-right: 60px;
+    margin-bottom: -930px;
+    margin-right: -10px;
 }
 
 footer {
@@ -99,7 +96,7 @@ footer {
 
 .weather {
     position: absolute;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     margin-left: -150px;
 }
 
