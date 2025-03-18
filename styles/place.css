@@ -13,7 +13,7 @@ html,
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background: white;
+    background: var(--secondary-color);
     max-width: 100% !important;
     height: 100%;
     margin: 0px;
@@ -23,10 +23,10 @@ body {
 }
 
 header {
-    background: brown;
+    background: var(--primary-color);
     grid-column: 1 / 4;
     padding-left: 1rem;
-    color: white;
+    color: var(--secondary-color);
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-align: center;
@@ -86,11 +86,11 @@ h1 {
 }
 
 footer {
-    background: brown;
+    background: var(--primary-color);
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
-    color: white;
+    color: var(--secondary-color);
     font-weight: 900;
     line-height: 30px;
     margin-top: 800px;
@@ -121,14 +121,14 @@ footer {
         display: block;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        background: brown;
+        background: var(--primary-color);
     }
 
     header {
-        background: brown;
+        background: var(--primary-color);
         grid-column: 1 / 4;
         padding-left: 1rem;
-        color: white;
+        color: var(--secondary-color);
         font-family: "Roboto", sans-serif;
         font-weight: 100;
         text-align: center;
@@ -147,8 +147,8 @@ footer {
 
     .head2 {
         position: absolute;
-        background-color: brown;
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
         padding-left: 20px;
         padding-right: 350px;
         font-size: 20px;
@@ -162,8 +162,8 @@ footer {
 
     .head3 {
         position: absolute;
-        background-color: brown;
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
         padding-left: 40px;
         padding-right: 240px;
         font-size: 20px;
@@ -177,7 +177,7 @@ footer {
 
     .head4 {
         position: absolute;
-        background-color: white;
+        background-color: var(--secondary-color);
         color: black;
         padding-left: 20px;
         padding-right: 120px;
@@ -194,7 +194,7 @@ footer {
 
     .head5 {
         position: absolute;
-        background-color: white;
+        background-color: var(--secondary-color);
         color: black;
         padding-left: 20px;
         padding-right: 120px;
@@ -209,11 +209,11 @@ footer {
     }
 
     footer {
-        background: brown;
+        background: var(--primary-color);
         padding: 2rem;
         text-align: center;
         grid-column: 1 / 4;
-        color: white;
+        color: var(--secondary-color);
         font-weight: 900;
         line-height: 30px;
         margin-top: -10px;
