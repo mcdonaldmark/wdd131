@@ -1,3 +1,8 @@
+:root {
+    --primary-color: brown;
+    --secondary-color: white;
+}
+
 * {
     margin: 0px;
     padding: 0;
@@ -101,6 +106,11 @@ footer {
 
 /* large view navigation ************************************/
 @media (min-width: 75.0em) {
+    :root {
+        --primary-color: brown;
+        --secondary-color: white;
+    }
+
     * {
         margin: 0px;
         padding: 0;
@@ -155,10 +165,10 @@ footer {
         background-color: brown;
         color: white;
         padding-left: 40px;
-        padding-right: 190px;
+        padding-right: 240px;
         font-size: 20px;
-        bottom: 1270px;
-        right: 220px;
+        bottom: 1320px;
+        right: 310px;
         padding-top: 40px;
         padding-bottom: 40px;
         z-index: 1;
@@ -190,7 +200,7 @@ footer {
         padding-right: 120px;
         font-size: 25px;
         bottom: 1000px;
-        right: 70px;
+        right: 150px;
         padding-top: 180px;
         padding-bottom: 40px;
         text-align: left;
@@ -220,5 +230,15 @@ footer {
         position: absolute;
         bottom: -30px;
         left: 380px;
+    }
+
+    .letter::first-letter {
+        color: #ff0000;
+        font-size: xx-large;
+    }
+
+    .thermo::after {
+        content: url(https://cdn4.iconfinder.com/data/icons/OxeSet/Termometer.png);
+
     }
 }
