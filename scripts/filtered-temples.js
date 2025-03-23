@@ -21,7 +21,7 @@ const temples = [
         dedicated: "2005, August, 7",
         area: 11500,
         imageUrl:
-            "images/aba-nigeria-temple-lds.jpg"
+            "images/aba-nigeria-temple-lds.webp"
     },
     {
         templeName: "Manti Utah",
@@ -45,7 +45,7 @@ const temples = [
         dedicated: "2020, May, 2",
         area: 6861,
         imageUrl:
-            "images/yigo_guam.jpg"
+            "images/yigo_guam.webp"
     },
     {
         templeName: "Washington D.C.",
@@ -93,7 +93,7 @@ const temples = [
         dedicated: "1984, October, 19",
         area: 44207,
         imageUrl:
-            "images/daltemple.jpg"
+            "images/daltemple.webp"
     },
     {
         templeName: "Detroit Michigan",
