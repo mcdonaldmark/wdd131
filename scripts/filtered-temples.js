@@ -102,13 +102,62 @@ const temples = [
         area: 10700,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/detroit-michigan/400x250/detroit-temple-766397-wallpaper.jpg"
+    },
+    {
+        templeName: "Guayaquil Ecuador",
+        location: "Guayaquil, Ecuador",
+        dedicated: "1999, August, 1",
+        area: 45000,
+        imageUrl:
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/guayaquil-ecuador/400x250/guayaquil-ecuador-temple-lds-884500-wallpaper.jpg"
     }
 
 ];
 
-createTempleCard();
+createTempleCard(temples);
 
-function createTempleCard() {
+const oldLink = document.querySelector("#old");
+
+oldLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.dedicated < "1900"));
+    const myHeading = document.querySelector('.heading1');
+    myHeading.innerHTML = 'Old';
+});
+
+const newLink = document.querySelector("#new");
+
+newLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.dedicated > "2000"));
+    const myHeading = document.querySelector('.heading1');
+    myHeading.innerHTML = 'New';
+});
+
+const largeLink = document.querySelector("#large");
+
+largeLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area > "90000"));
+    const myHeading = document.querySelector('.heading1');
+    myHeading.innerHTML = 'Large';
+});
+
+const smallLink = document.querySelector("#small");
+
+smallLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area < "10000"))
+    const myHeading = document.querySelector('.heading1');
+    myHeading.innerHTML = 'Small';
+});
+
+const allLink = document.querySelector("#all");
+
+allLink.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => temple.area));
+    const myHeading = document.querySelector('.heading1');
+    myHeading.innerHTML = 'Home';
+});
+
+function createTempleCard(temples) {
+    document.querySelector(".grid1").innerHTML = "";
     temples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
