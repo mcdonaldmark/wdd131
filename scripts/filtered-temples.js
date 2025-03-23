@@ -88,7 +88,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-diego-california/400x250/san-diego-temple-765109-wallpaper.jpg"
     },
     {
-        templeName: "Texas Dallas",
+        templeName: "Dallas Texas",
         location: "Dallas, Texas",
         dedicated: "1984, October, 19",
         area: 44207,
@@ -96,7 +96,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/400x250/Dallas-Texas-Temple14.jpg"
     },
     {
-        templeName: "Michigan Detroit",
+        templeName: "Detroit Michigan",
         location: "Detroit, Michigan",
         dedicated: "1999, October, 23",
         area: 10700,
@@ -120,7 +120,7 @@ function createTempleCard() {
         name.textContent = temple.templeName;
         location.innerHTML = `Location: ${temple.location}`;
         dedication.innerHTML = `Dedication: ${temple.dedicated}`;
-        area.innerHTML = `Size: ${temple.area}`;
+        area.innerHTML = `Size: ${temple.area} sq ft`;
         img.setAttribute("src", temple.imageUrl);
         img.setAttribute("alt", `${temple.templeName} Temple`);
         img.setAttribute("loading", "lazy");
