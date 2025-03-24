@@ -105,10 +105,22 @@ footer {
     grid-column: 1 / 4;
     padding-bottom: 50px;
     padding-top: 50px;
-    margin-top: 75px;
+    margin-top: 4100px;
     color: white;
     font-weight: 900;
     line-height: 30px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    height: 0px;
+    width: 0px;
+}
+
+.adjustment {
+    margin-left: 200px;
 }
 
 /* small view navigation */
@@ -267,9 +279,28 @@ img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
+        height: 0px;
+        width: 0px;
+    }
+
+    .adjustment {
+        margin-left: 400px;
     }
 
     img {
         width: 400px;
+    }
+
+    footer {
+        background: #00308F;
+        padding: 2rem;
+        text-align: center;
+        grid-column: 1 / 4;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-top: 1750px;
+        color: white;
+        font-weight: 900;
+        line-height: 30px;
     }
 }

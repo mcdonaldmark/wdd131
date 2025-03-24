@@ -111,7 +111,6 @@ const temples = [
         imageUrl:
             "images/guayaquil-ecuador-temple.jpg"
     }
-
 ];
 
 createTempleCard(temples);
