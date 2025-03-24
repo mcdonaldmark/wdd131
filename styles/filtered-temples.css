@@ -118,6 +118,7 @@ footer {
     justify-content: center;
     height: 0px;
     width: 0px;
+    gap: 35px;
 }
 
 .adjustment {
@@ -166,7 +167,7 @@ a:hover {
 section {
     border: 2px solid #ccc;
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     padding: 10px 5px 10px 5px;
     margin: 20px 15px 0px 0px;
     text-align: center;
@@ -282,6 +283,7 @@ img {
         justify-content: center;
         height: 0px;
         width: 0px;
+        gap: 0px;
     }
 
     .adjustment {
