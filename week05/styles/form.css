@@ -150,7 +150,7 @@
     }
 
     .p1 {
-        color: red;
+        color: purple;
         margin-left: 10px;
     }
 
@@ -168,7 +168,7 @@
     }
 
     .red {
-        color: red;
+        color: purple;
         font-size: 20px;
     }
 
@@ -337,7 +337,7 @@
         }
 
         .p1 {
-            color: red;
+            color: purple;
             margin-left: 10px;
         }
 
@@ -355,7 +355,7 @@
         }
 
         .red {
-            color: red;
+            color: purple;
             font-size: 20px;
         }
 
