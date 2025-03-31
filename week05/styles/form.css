@@ -91,6 +91,7 @@
         color: black;
         border: #DDD5F3;
         font-size: 1 .0;
+        margin-left: -30px;
     }
 
     .pf1 input[type="date"],
