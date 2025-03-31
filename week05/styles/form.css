@@ -37,7 +37,7 @@
         color: white;
         font-weight: 900;
         line-height: 30px;
-        margin-top: 610px;
+        margin-top: 300px;
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -174,7 +174,7 @@
 
     .preview {
         text-align: center;
-        margin-top: 500px;
+        margin-top: 300px;
         font-family: cursive;
         font-size: 40px;
     }
@@ -226,7 +226,7 @@
             color: white;
             font-weight: 900;
             line-height: 30px;
-            margin-top: 610px;
+            margin-top: 300px;
             padding-top: 70px;
             padding-bottom: 70px;
         }
@@ -360,7 +360,7 @@
 
         .preview {
             text-align: center;
-            margin-top: 500px;
+            margin-top: 300px;
             font-family: cursive;
             font-size: 40px;
         }
