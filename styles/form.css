@@ -92,7 +92,7 @@
         display: block;
         color: black;
         border: #DDD5F3;
-        font-size: 1 .0;
+        font-size: 15px;
         margin-left: -30px;
     }
 
@@ -163,7 +163,6 @@
         border-radius: 10px;
         padding-left: 60px;
         padding-bottom: 50px;
-        padding-right: -60px;
         background-color: #DDD5F3;
     }
 
@@ -280,7 +279,7 @@
             display: block;
             color: black;
             border: #DDD5F3;
-            font-size: 1 .0;
+            font-size: 20px;
             margin-left: 0px;
         }
 
@@ -303,9 +302,8 @@
             max-width: 400px;
         }
 
-        .pf1 input[type="textarea"] {
+        textarea {
             display: block;
-            border: solid 1px #DDD5F3;
             border-radius: 6px;
             padding: .75rem;
             padding-bottom: 10rem;
