@@ -302,9 +302,8 @@
             max-width: 400px;
         }
 
-        .pf1 input[type="textarea"] {
+        textarea {
             display: block;
-            border: solid 1px #DDD5F3;
             border-radius: 6px;
             padding: .75rem;
             padding-bottom: 10rem;
