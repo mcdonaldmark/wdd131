@@ -255,7 +255,7 @@ input[type="radio"] {
     color: black;
     border: #DDD5F3;
     font-size: 1 .0;
-
+    padding-left: 50px;
 }
 
 .pf1 input[type="date"],
@@ -303,6 +303,7 @@ input[type="radio"] {
     font-weight: bold;
     margin-top: 15px;
     font-size: 20px;
+    margin-left: 65px;
 }
 
 .pf1 input:required,
@@ -312,23 +313,20 @@ input[type="radio"] {
 
 .p1 {
     color: red;
-    margin-left: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 form {
-    margin-left: 470px;
+    margin-left: 500px;
     border: 1px solid black;
     margin-right: 650px;
     margin-top: -10px;
     margin-bottom: 50px;
     border-radius: 10px;
-    padding-left: 80px;
-    padding-bottom: -250px;
-    padding-right: 580px;
     background-color: #DDD5F3;
     width: 100%;
     height: 100%;
-    margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 }
