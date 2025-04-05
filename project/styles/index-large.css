@@ -318,10 +318,10 @@ input[type="radio"] {
 }
 
 .form1 {
-    margin-left: 500px;
+    margin-left: -100px;
     border: 1px solid black;
     margin-right: 650px;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: 50px;
     border-radius: 10px;
     background-color: #DDD5F3;
@@ -348,4 +348,17 @@ input[type="radio"] {
     font-family: cursive;
     font-size: 30px;
     line-height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    line-height: 70px;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 50%;
 }
