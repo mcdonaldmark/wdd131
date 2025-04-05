@@ -355,10 +355,20 @@ ul {
 }
 
 .menu {
-    line-height: 70px;
+    margin-top: 50px;
 }
 
 .border {
     border: 1px solid black;
     border-radius: 50%;
+    margin-top: 40px;
+}
+
+.ul1 {
+    margin-left: 575px;
+    margin-top: -1420px;
+}
+
+li {
+    margin-top: 70px;
 }
