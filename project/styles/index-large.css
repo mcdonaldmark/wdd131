@@ -107,6 +107,7 @@ main {
     font-style: italic;
     font-size: 27px;
     text-align: left;
+    margin-bottom: -300px;
 }
 
 .main2 {
@@ -425,4 +426,9 @@ li {
     float: right;
     border: none;
     padding-left: 10px;
+}
+
+.para {
+    width: 65%;
+    margin-left: -100px;
 }
