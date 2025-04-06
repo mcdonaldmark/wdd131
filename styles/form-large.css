@@ -88,7 +88,7 @@ input[type="radio"] {
     display: block;
     color: black;
     border: #DDD5F3;
-    font-size: 1 .0;
+    font-size: 1px;
 }
 
 .pf1 input[type="date"],
