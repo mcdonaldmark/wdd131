@@ -99,6 +99,16 @@ main {
     text-align: left;
 }
 
+.main2 {
+    display: grid;
+    grid-template: auto 1fr auto / 600px 1fr auto;
+    gap: 15px 550px;
+    max-width: 100%;
+    font-style: italic;
+    font-size: 27px;
+    text-align: left;
+}
+
 .space {
     margin-bottom: 50px;
 }
@@ -355,13 +365,42 @@ ul {
 }
 
 .menu {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: -100px;
 }
 
 .border {
     border: 1px solid black;
     border-radius: 1rem;
     margin-top: 40px;
+}
+
+.border1 {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 40px;
+    margin-right: -300px;
+    float: right;
+}
+
+.border2 {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin-top: 35px;
+    margin-right: -300px;
+    float: right;
+}
+
+.title {
+    margin-top: -33px;
+    margin-right: -180px;
+    float: right;
+}
+
+.title2 {
+    margin-top: -33px;
+    margin-right: -290px;
+    float: right;
 }
 
 li {
