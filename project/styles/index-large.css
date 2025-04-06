@@ -75,8 +75,8 @@ footer {
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 4;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-top: 120px;
     margin-top: 75px;
     color: #000000;
     font-weight: 900;
@@ -137,14 +137,17 @@ main {
     background: #eed5b7;
     padding: 2rem;
     text-align: center;
-    margin-top: 75px;
-    color: #000000;
+    color: white;
+    background-color: black;
     font-weight: 900;
     line-height: 30px;
     font-family: "Roboto";
-    margin-top: 1500px;
+    margin-top: 1550px;
     margin-left: -950px;
-    font-size: 40px;
+    margin-bottom: -80px;
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: 90px;
 }
 
 .paralign {
