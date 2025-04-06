@@ -351,6 +351,8 @@
             padding-bottom: 50px;
             padding-right: 80px;
             background-color: #DDD5F3;
+            width: 100%;
+            max-width: 800px;
         }
 
         .red {
