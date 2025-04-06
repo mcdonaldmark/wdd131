@@ -28,8 +28,18 @@ nav {
     margin-bottom: -50px;
 }
 
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    margin-top: -88px;
+    margin-left: 715px;
+    margin-bottom: -50px;
+}
+
 nav a {
-    background-color: black;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -405,4 +415,11 @@ ul {
 
 li {
     margin-top: 70px;
+}
+
+.socialmedia {
+    background-color: white;
+    float: right;
+    border: none;
+    padding-left: 10px;
 }
