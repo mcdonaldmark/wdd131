@@ -501,3 +501,16 @@ figcaption {
     margin-left: 50px;
     margin-bottom: 50px;
 }
+
+.main3 {
+    display: block;
+    margin-left: 550px;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.para1 {
+    margin-top: 50px;
+    margin-left: 280px;
+}

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Online</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
     <script src="scripts/index.js" defer></script>
@@ -47,36 +47,32 @@
         <form method="get" action="review.html" class="pf1 form1">
             <fieldset>
                 <h2 class="marginleft1">Rate my products!</h2>
-                <label><b>Product Name <span class="red">*</span> </b><select name="productName" id="productName"
-                        required>
+                <label><b>Product Name</b><select name="productName" id="productName">
                         <option value="" selected="true" disabled="disabled">Choose a Product...</option>
                     </select>
                 </label>
             </fieldset>
 
             <fieldset>
-                <label><b>Overall Rating <span class="red">*</span></b></label>
+                <label><b>Overall Rating</b></label>
                 <div class="stars">
-                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                    <input type="radio" id="fivestar" name="stars" value="5"><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4"><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3"><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2"><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1"><label for="onestar"></label>
                 </div>
             </fieldset>
 
             <fieldset>
-                <label><b>Written Review (Optional) </b><textarea name="writeReview"
-                        id="writeReview"></textarea></label>
+                <label><b>Written Review</b><textarea name="writeReview" id="writeReview"></textarea></label>
             </fieldset>
 
             <fieldset>
-                <label><b>Your Name (Optional) </b><input type="text" name="userName" id="userName"></label>
+                <label><b>Your Name</b><input type="text" name="userName" id="userName"></label>
             </fieldset>
 
             <input type="submit" value="Post Review">
-
-            <p class="p1">* Required Field</p>
 
         </form>
 
