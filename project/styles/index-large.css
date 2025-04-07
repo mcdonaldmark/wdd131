@@ -107,7 +107,7 @@ main {
     font-style: italic;
     font-size: 27px;
     text-align: left;
-    margin-bottom: -300px;
+    margin-bottom: -3 00px;
 }
 
 .main2 {
@@ -431,4 +431,8 @@ li {
 .para {
     width: 65%;
     margin-left: -100px;
+}
+
+.space {
+    line-height: 50px;
 }
