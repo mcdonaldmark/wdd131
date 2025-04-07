@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Home</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
     <script src="scripts/index.js" defer></script>
@@ -28,36 +28,13 @@
             <a href="https://mcdonaldmark.github.io/wdd131/project/contact.html">Contact Me</a>
         </nav>
     </header>
-    <main>
-        <h2 class="contact">Contact Me</h2>
-        <div class="container">
-            <form method="get" action="feedback.html">
-
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                <label for="email">Email Address:</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your email address..">
-
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your phone number...">
-
-                <label for="subject">Please share your message:</label>
-                <textarea id="subject" name="subject" placeholder="Share!" style="height:200px"></textarea>
-
-
-                <input type="submit" value="Let's talk! 😊">
-
-            </form>
-        </div>
+    <main class="main3">
+        <p>Thank you so much for reaching out! I look forward to connecting with you! 😊</p>
+        <p class="para1"><span class="label">Number of Contacts: </span><span class="visits"></span></p>
     </main>
     <footer>
         <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
         <p class="text">Last Modified: <span id="modified"></span></p>
-
         <nav class="nav1">
             <a href="https://facebook.com">
                 <img class="socialmedia" src="images/facebook.svg" alt="Facebook" width="50" height="50">
@@ -70,6 +47,21 @@
             </a>
         </nav>
     </footer>
+    <script>
+        const visitsDisplay = document.querySelector(".visits");
+
+        let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+
+        if (numVisits !== 0) {
+            visitsDisplay.textContent = numVisits;
+        } else {
+            visitsDisplay.textContent = `This is your first submission. 🥳 Thank you!`;
+        }
+
+        numVisits++;
+
+        localStorage.setItem("numVisits-ls", numVisits);
+    </script>
 </body>
 
 </html>
