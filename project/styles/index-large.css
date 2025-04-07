@@ -193,7 +193,7 @@ textarea {
 .container textarea {
     width: 100%;
     max-width: 400px;
-    padding: 10px;
+    padding: 15px;
     padding-bottom: 200px;
     margin-left: 30px;
 }
