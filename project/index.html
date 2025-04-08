@@ -66,7 +66,10 @@
     </main>
     <section class="footer1">
         <h2>Testimonials</h2>
-        <p class="paralign">This place is fantastic!</p>
+        <p class="paralign testimonial">This place is fantastic! - Happy Customer 1</p>
+        <p class="paralign testimonial">I would eat here every day! - Happy Customer 2</p>
+        <p class="paralign testimonial">I love the food! It's so delicious! - Happy Customer 3</p>
+        </div>
     </section>
     <footer>
         <p>&#169;<span id="currentyear"></span> 🌵 Mark McDonald 🌵 Utah</p>
@@ -84,6 +87,30 @@
             </a>
         </nav>
     </footer>
+    <script>
+
+        const testimonials = document.querySelectorAll('.testimonial');
+        let index = 0;
+
+        function showTestimonial(n) {
+            // Hide all testimonials
+            testimonials.forEach(testimonial => testimonial.style.display = 'none');
+
+            testimonials[n].style.display = 'block';
+        }
+
+        function nextTestimonial() {
+            index++;
+            if (index >= testimonials.length) {
+                index = 0;
+            }
+            showTestimonial(index);
+        }
+
+        showTestimonial(index);
+
+        setInterval(nextTestimonial, 6000);
+    </script>
 </body>
 
 </html>

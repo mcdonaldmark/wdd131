@@ -173,6 +173,7 @@ main {
     padding-bottom: 25px;
     font-family: "Tangerine";
     font-weight: 900;
+    color: white;
 }
 
 input[type=text],
