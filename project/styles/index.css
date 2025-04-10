@@ -55,6 +55,18 @@ nav {
     margin-left: -1200px;
 }
 
+.nav3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: -1000px;
+    margin-bottom: -40px;
+    max-width: 100%;
+}
+
 nav a {
     color: white;
     padding: 30px 20px;
@@ -111,6 +123,16 @@ header {
     font-size: 45px;
 }
 
+.shrink2 {
+    width: 12.6%;
+    height: 45%;
+    margin-left: -2000px;
+}
+
+.title5 {
+    margin-left: -2000px;
+    font-size: 65px;
+}
 
 footer {
     background: #ffffff;
@@ -475,43 +497,47 @@ ul {
     list-style-type: none;
 }
 
+li {
+    font-size: 18px;
+    margin-left: -125px;
+}
+
 .menu {
-    margin-top: 20px;
-    margin-left: -100px;
+    margin-top: 120px;
+    margin-left: 10px;
 }
 
 .border {
     border: 1px solid black;
     border-radius: 1rem;
     margin-top: 40px;
+    margin-left: -95px;
 }
 
 .border1 {
     border: 1px solid black;
     border-radius: 1rem;
-    margin-top: 39px;
-    margin-right: -297px;
-    float: right;
+    margin-top: 900px;
+    margin-left: -95px;
+    float: left;
 }
 
 .border2 {
     border: 1px solid black;
     border-radius: 1rem;
-    margin-top: 37px;
-    margin-right: -297px;
-    float: right;
+    margin-top: 530px;
+    margin-left: -95px;
+    float: left;
 }
 
 .title {
-    margin-top: -33px;
-    margin-right: -280px;
-    float: right;
+    margin-top: 850px;
+    margin-right: 380px;
 }
 
 .title2 {
-    margin-top: -33px;
-    margin-right: -290px;
-    float: right;
+    margin-top: 480px;
+    margin-right: 80px;
 }
 
 li {
