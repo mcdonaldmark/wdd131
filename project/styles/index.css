@@ -163,6 +163,7 @@ main {
     margin-top: 1600px;
     line-height: 100px;
     padding: 0px;
+    max-width: 100%;
 }
 
 .image {
