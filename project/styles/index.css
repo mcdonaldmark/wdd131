@@ -782,6 +782,11 @@ figcaption {
         margin-left: -850px;
     }
 
+    .body1 {
+        width: 100%;
+
+    }
+
     .alignh2 {
         margin-left: 620px;
         width: 100%;
