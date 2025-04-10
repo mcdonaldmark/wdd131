@@ -562,8 +562,8 @@ figcaption {
         justify-content: space-evenly;
         background-color: black;
         margin-top: 100px;
-        margin-left: -300px;
-        margin-bottom: -150px;
+        margin-left: -10px;
+        margin-bottom: -120px;
     }
 
     .nav1 {
@@ -597,6 +597,8 @@ figcaption {
         margin-left: -50px;
         margin-right: 0px;
         margin-top: 100px;
+        width: 100%;
+        font-size: 25px;
     }
 
     header {
@@ -627,7 +629,7 @@ figcaption {
         line-height: 30px;
         font-family: "Roboto";
         margin-bottom: -275px;
-        padding-left: 150px;
+        padding-left: 1200px;
     }
 
     .footer2 {
@@ -693,6 +695,8 @@ figcaption {
     .image {
         border-radius: 1rem;
         box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+        width: 500px;
+        height: 300px;
     }
 
     .footer1 {
@@ -1066,7 +1070,7 @@ figcaption {
     .shrink {
         width: 15%;
         height: 45%;
-        margin-left: 250px;
+        margin-left: -300px;
     }
 
     .title3 {
