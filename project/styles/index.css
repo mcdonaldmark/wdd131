@@ -88,6 +88,17 @@ header {
     margin-top: -50px;
 }
 
+.shrink1 {
+    width: 15%;
+    height: 25%;
+    margin-left: -2425px;
+}
+
+.title4 {
+    margin-left: -2420px;
+    font-size: 45px;
+}
+
 
 footer {
     background: #ffffff;
@@ -252,7 +263,7 @@ input[type=submit]:hover {
 }
 
 .vero {
-    margin-left: -1815px;
+    margin-left: -1835px;
     margin-bottom: 200px;
     border: 2px solid black;
     border-radius: 50%;
@@ -278,7 +289,7 @@ input[type=submit]:hover {
 }
 
 .alignh2 {
-    margin-left: -33px;
+    margin-left: -60px;
     width: 100%;
     margin-top: -30px;
 }
@@ -502,9 +513,9 @@ li {
 }
 
 .para {
-    width: 35%;
+    width: 30%;
     margin-left: -400px;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 400px;
 }
 
