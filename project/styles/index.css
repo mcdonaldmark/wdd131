@@ -459,7 +459,7 @@ ul {
 
 .title {
     margin-top: -33px;
-    margin-right: -180px;
+    margin-right: -280px;
     float: right;
 }
 
@@ -533,7 +533,6 @@ figcaption {
         height: 100%;
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden;
     }
 
     nav {
