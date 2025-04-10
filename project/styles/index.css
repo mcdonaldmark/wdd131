@@ -17,12 +17,14 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .section2 {
     margin-left: -120px;
     margin-right: 350px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -35,6 +37,7 @@ nav {
     margin-left: -450px;
     margin-bottom: -30px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .nav1 {
@@ -76,6 +79,7 @@ header {
     font-family: "Tangerine";
     font-size: 30px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .shrink {
@@ -83,12 +87,14 @@ header {
     height: 25%;
     margin-left: -440px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .title3 {
     margin-left: -450px;
     font-size: 45px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 footer {
@@ -105,6 +111,7 @@ footer {
     margin-bottom: -275px;
     margin-left: -450px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .footer2 {
@@ -187,6 +194,7 @@ main {
     font-size: 30px;
     line-height: 90px;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .paralign {
