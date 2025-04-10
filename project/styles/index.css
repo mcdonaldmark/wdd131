@@ -647,7 +647,6 @@ figcaption {
     .main2 {
         display: grid;
         grid-template: auto 1fr auto / 600px 1fr auto;
-        margin-left: -40px;
         gap: 15px 550px;
         width: 100%;
         max-width: 1500px;
