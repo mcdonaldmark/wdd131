@@ -28,7 +28,7 @@ nav {
     justify-content: space-evenly;
     background-color: black;
     margin-top: 100px;
-    margin-left: -290px;
+    margin-left: -630px;
     margin-bottom: -30px;
     max-width: 100%;
 }
@@ -80,8 +80,9 @@ header {
 }
 
 .title3 {
-    margin-left: -450px;
+    margin-left: -1250px;
     font-size: 45px;
+    margin-top: -40px;
 }
 
 footer {
@@ -1062,7 +1063,7 @@ figcaption {
     .shrink {
         width: 15%;
         height: 45%;
-        margin-left: -340px;
+        margin-left: 250px;
     }
 
     .title3 {
