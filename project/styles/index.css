@@ -175,18 +175,18 @@ main {
     font-weight: 900;
     line-height: 30px;
     font-family: "Roboto";
-    margin-top: 3000px;
-    margin-left: -1425px;
+    margin-top: 2575px;
+    margin-left: -3350px;
     margin-bottom: -80px;
-    padding-top: 50px;
-    font-size: 30px;
+    padding-top: 30px;
+    font-size: 20px;
     line-height: 90px;
 }
 
 .paralign {
-    margin-right: 13px;
+    margin-right: -20px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 23px;
     padding-bottom: 25px;
     font-family: "Tangerine";
     font-weight: 900;
