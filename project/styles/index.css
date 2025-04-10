@@ -17,6 +17,11 @@ body {
     overflow-x: hidden;
 }
 
+.section2 {
+    margin-left: -120px;
+    margin-right: 350px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -31,11 +36,9 @@ nav {
 .nav1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: white;
-    justify-content: center;
-    margin-top: -88px;
-    margin-left: 715px;
+    margin-top: 40px;
+    margin-left: -12px;
     margin-bottom: -50px;
 }
 
@@ -70,10 +73,20 @@ header {
     font-size: 30px;
 }
 
+.shrink {
+    width: 25%;
+    height: 45%;
+    margin-left: -440px;
+}
+
+.title3 {
+    margin-left: -450px;
+    font-size: 45px;
+}
+
 footer {
     background: #ffffff;
     padding: 2rem;
-    text-align: center;
     grid-column: 1 / 4;
     padding-bottom: 120px;
     padding-top: 120px;
@@ -83,6 +96,7 @@ footer {
     line-height: 30px;
     font-family: "Roboto";
     margin-bottom: -275px;
+    margin-left: -450px;
 }
 
 .footer2 {
@@ -513,6 +527,49 @@ figcaption {
     margin-top: 50px;
     margin-left: 280px;
     width: 100%;
+
+    #menu {
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: white;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "❌";
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        color: #00308F;
+        margin-bottom: -500px;
+    }
+
+    .navigation a {
+        display: none;
+        text-align: center;
+        text-decoration: none;
+        color: #00308F;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: grey;
+    }
+
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
 }
 
 /* large view navigation ************************************/
