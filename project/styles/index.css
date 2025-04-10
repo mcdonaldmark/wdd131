@@ -28,7 +28,7 @@ nav {
     justify-content: space-evenly;
     background-color: black;
     margin-top: 100px;
-    margin-left: -630px;
+    margin-left: -735px;
     margin-bottom: -30px;
     max-width: 100%;
 }
@@ -80,9 +80,9 @@ header {
 }
 
 .title3 {
-    margin-left: -1250px;
+    margin-left: -1500px;
     font-size: 45px;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 footer {
