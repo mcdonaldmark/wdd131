@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 body {
@@ -152,6 +153,7 @@ main {
     margin-left: -1300px;
     margin-top: 1600px;
     line-height: 100px;
+    padding: 0px;
 }
 
 .image {
@@ -526,7 +528,7 @@ figcaption {
     margin-left: 280px;
     width: 100%;
 
-    #menu {
+    #menu1 {
         font-size: 1.5rem;
         border: 0;
         background: none;
@@ -536,11 +538,11 @@ figcaption {
         right: 1rem;
     }
 
-    #menu::before {
+    #menu1::before {
         content: "☰";
     }
 
-    #menu.open::before {
+    #menu1.open::before {
         content: "❌";
     }
 
@@ -571,7 +573,7 @@ figcaption {
 }
 
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+@media (min-width: 70.5em) {
     * {
         margin: 0;
         padding: 0;
