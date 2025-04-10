@@ -88,6 +88,7 @@ header {
     margin-top: -50px;
 }
 
+
 footer {
     background: #ffffff;
     padding: 2rem;
@@ -251,11 +252,13 @@ input[type=submit]:hover {
 }
 
 .vero {
-    margin-left: -900px;
+    margin-left: -1815px;
     margin-bottom: 200px;
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    width: 300px;
+    height: 300px;
 }
 
 .section1 {
@@ -275,7 +278,7 @@ input[type=submit]:hover {
 }
 
 .alignh2 {
-    margin-left: 720px;
+    margin-left: -33px;
     width: 100%;
     margin-top: -30px;
 }
@@ -499,8 +502,10 @@ li {
 }
 
 .para {
-    width: 65%;
-    margin-left: -100px;
+    width: 35%;
+    margin-left: -400px;
+    font-size: 25px;
+    margin-top: 400px;
 }
 
 .space {
