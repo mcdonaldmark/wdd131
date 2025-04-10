@@ -81,11 +81,13 @@ header {
     width: 25%;
     height: 25%;
     margin-left: -440px;
+    max-width: 100%;
 }
 
 .title3 {
     margin-left: -450px;
     font-size: 45px;
+    max-width: 100%;
 }
 
 footer {
@@ -182,6 +184,7 @@ main {
     padding-top: 50px;
     font-size: 30px;
     line-height: 90px;
+    max-width: 100%;
 }
 
 .paralign {
@@ -554,6 +557,7 @@ figcaption {
         height: 100%;
         margin: 0px;
         padding: 0px;
+        max-width: 100%;
     }
 
     nav {
@@ -689,6 +693,7 @@ figcaption {
         margin-left: -200px;
         line-height: 100px;
         margin-top: 100px;
+        max-width: 100%;
     }
 
     .image {
