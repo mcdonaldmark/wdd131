@@ -64,7 +64,7 @@ nav {
     margin-top: 100px;
     margin-left: -1004px;
     margin-bottom: -40px;
-    max-width: 100%;
+    max-width: 110%;
 }
 
 nav a {
@@ -173,8 +173,8 @@ footer {
     grid-column: 1 / 4;
     padding-bottom: 120px;
     padding-top: 120px;
-    margin-top: -272px;
-    margin-left: -2010px;
+    margin-top: 47px;
+    margin-left: -570px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
@@ -659,6 +659,16 @@ figcaption {
         margin-bottom: -120px;
     }
 
+    .nav3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        margin-left: -300px;
+        margin-bottom: -120px;
+    }
+
     nav a {
         color: white;
         padding: 30px 20px;
@@ -1125,6 +1135,7 @@ figcaption {
         border: 1px solid black;
         border-radius: 1rem;
         margin-top: 40px;
+        margin-left: 20px;
     }
 
     .border1 {
@@ -1157,6 +1168,7 @@ figcaption {
 
     li {
         margin-top: 70px;
+        margin-left: 20px;
     }
 
     .socialmedia {
@@ -1223,6 +1235,18 @@ figcaption {
 
     .title4 {
         margin-left: -700px;
+        font-size: 65px;
+    }
+
+    .shrink3 {
+        width: 13.6%;
+        height: 45%;
+        margin-left: -560px;
+        margin-bottom: 50px;
+    }
+
+    .title6 {
+        margin-left: -560px;
         font-size: 65px;
     }
 }
