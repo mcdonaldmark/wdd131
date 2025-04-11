@@ -11,10 +11,9 @@ body {
     font-weight: 400;
     background-color: #eed5b7;
     font-family: "Roboto";
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    width: 100%;
 }
 
 .section2 {
@@ -68,18 +67,6 @@ nav {
     max-width: 110%;
 }
 
-.nav4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: black;
-    margin-top: 100px;
-    margin-left: -1130px;
-    margin-bottom: -40px;
-    max-width: 110%;
-}
-
 nav a {
     color: white;
     padding: 30px 20px;
@@ -110,6 +97,19 @@ header {
     font-family: "Tangerine";
     font-size: 30px;
 }
+
+.shrink3 {
+    width: 12%;
+    height: 37%;
+    margin-left: -2010px;
+    margin-bottom: 50px;
+}
+
+.title6 {
+    margin-left: -2010px;
+    font-size: 45px;
+}
+
 
 .shrink {
     width: 15%;
@@ -187,7 +187,7 @@ footer {
     padding-bottom: 120px;
     padding-top: 120px;
     margin-top: 47px;
-    margin-left: -2010px;
+    margin-left: -2019px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
@@ -620,34 +620,6 @@ figcaption {
     width: 100%;
 }
 
-.footer3 {
-    background: #ffffff;
-    padding: 2rem;
-    text-align: center;
-    grid-column: 1 / 4;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    margin-top: 47px;
-    margin-left: -510px;
-    color: #000000;
-    font-weight: 900;
-    line-height: 30px;
-    font-family: "Roboto";
-    margin-bottom: 0px;
-}
-
-.shrink3 {
-    width: 13.6%;
-    height: 30%;
-    margin-left: -2000px;
-    margin-bottom: 50px;
-}
-
-.title6 {
-    margin-left: -1999px;
-    font-size: 45px;
-}
-
 /* large view navigation ************************************/
 @media (min-width: 70.5em) {
     * {
@@ -672,13 +644,11 @@ figcaption {
     nav {
         display: flex;
         flex-direction: row;
-        align-items: left;
-        text-align: left;
+        align-items: center;
         justify-content: space-evenly;
         background-color: black;
-        margin-left: -130px;
+        margin-left: -150px;
         margin-bottom: -120px;
-        width: 100%;
     }
 
     .nav1 {
@@ -696,25 +666,20 @@ figcaption {
         display: flex;
         flex-direction: row;
         align-items: center;
-        text-align: center;
         justify-content: space-evenly;
         background-color: black;
-        margin-left: -290px;
+        margin-left: -300px;
         margin-bottom: -120px;
-        width: 100%;
-        padding-right: 100px;
     }
 
     .nav3 {
         display: flex;
         flex-direction: row;
         align-items: center;
-        text-align: center;
         justify-content: space-evenly;
         background-color: black;
-        margin-left: -270px;
+        margin-left: -300px;
         margin-bottom: -120px;
-        width: 100%;
     }
 
     nav a {
@@ -733,6 +698,55 @@ figcaption {
         text-decoration-color: white;
     }
 
+    .a1 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    .a2 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -200px;
+    }
+
+    .a3 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -200px;
+        margin-right: 700px;
+    }
+
+    .a4 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -900px;
+        margin-right: 50px;
+    }
 
     .a5 {
         color: white;
@@ -1298,4 +1312,20 @@ figcaption {
         margin-left: -560px;
         font-size: 65px;
     }
+
+.footer3 {
+    background: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-top: 47px;
+    margin-left: -570px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+}
 }
