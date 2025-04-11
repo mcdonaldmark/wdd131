@@ -174,7 +174,7 @@ footer {
     padding-bottom: 120px;
     padding-top: 120px;
     margin-top: -272px;
-    margin-left: -1910px;
+    margin-left: -2010px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
@@ -283,12 +283,12 @@ textarea {
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 40px 12px 20px;
     border: none;
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     margin-left: 30px;
     margin-top: 20px;
@@ -397,7 +397,7 @@ input[type="radio"] {
     color: black;
     border: #DDD5F3;
     font-size: 1 .0;
-    padding-left: 50px;
+    padding-left: 10px;
     margin-bottom: 10px;
 }
 
@@ -406,7 +406,7 @@ input[type="radio"] {
     border: solid 1px black;
     border-radius: 6px;
     padding: .75rem;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
 }
 
@@ -415,7 +415,7 @@ input[type="radio"] {
     border: solid 1px black;
     border-radius: 6px;
     padding: .75rem;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
 }
 
@@ -424,7 +424,7 @@ input[type="radio"] {
     border: solid 1px black;
     border-radius: 6px;
     padding: .75rem;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     margin-left: 30px;
 }
@@ -433,7 +433,7 @@ input[type="radio"] {
     display: block;
     border-radius: 6px;
     padding: .75rem;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     margin-left: 20px;
 }
@@ -444,7 +444,7 @@ input[type="radio"] {
     border-radius: 6px;
     padding: .75rem;
     padding-bottom: 10rem;
-    width: 100%;
+    width: 50%;
     max-width: 400px;
 }
 
@@ -458,13 +458,14 @@ input[type="radio"] {
     color: white;
     border-radius: 6px;
     padding: .8rem;
-    width: 96%;
+    padding-right: 100px;
+    width: 60%;
     max-width: 400px;
     margin: -0.2rem 2% 2rem 2%;
     font-weight: bold;
     margin-top: 30px;
     font-size: 20px;
-    margin-left: 62px;
+    margin-left: 13px;
 }
 
 .pf1 input:required,
@@ -487,8 +488,8 @@ input[type="radio"] {
     margin-bottom: 300px;
     border-radius: 10px;
     background-color: #f2f2f2;
-    width: 100%;
-    padding: 0px;
+    width: 50%;
+    padding-right: 10px;
     overflow: hidden;
     height: 1100px;
 }
@@ -514,11 +515,6 @@ input[type="radio"] {
 
 ul {
     list-style-type: none;
-}
-
-li {
-    font-size: 18px;
-    margin-left: -125px;
 }
 
 .menu {
@@ -562,6 +558,8 @@ li {
 
 li {
     margin-top: 70px;
+    font-size: 15px;
+    margin-left: -125px;
 }
 
 .socialmedia {
