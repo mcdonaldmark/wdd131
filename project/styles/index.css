@@ -507,6 +507,17 @@ input[type="radio"] {
     height: 1100px;
 }
 
+.nav4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-left: 1400px;
+    margin-bottom: -120px;
+    margin-right: 1000px;
+}
+
 .red {
     color: red;
     font-size: 20px;
@@ -608,10 +619,26 @@ figcaption {
 
 .main3 {
     display: block;
-    margin-left: 550px;
-    width: 100%;
+    margin-left: 15px;
+    width: 60%;
     padding-bottom: 100px;
     padding-top: 100px;
+}
+
+.footer4 {
+    background: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-top: 47px;
+    margin-left: -70px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
 }
 
 .para1 {
@@ -648,7 +675,10 @@ figcaption {
         justify-content: space-evenly;
         background-color: black;
         margin-left: -150px;
+        margin-right: 1400px;
         margin-bottom: -120px;
+        padding-right: -1000px;
+        width: 100%;
     }
 
     .nav1 {
@@ -680,6 +710,17 @@ figcaption {
         background-color: black;
         margin-left: -300px;
         margin-bottom: -120px;
+    }
+
+    .nav4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        margin-left: 1400px;
+        margin-bottom: -120px;
+        margin-right: 1000px;
     }
 
     nav a {
@@ -1322,6 +1363,22 @@ figcaption {
     padding-top: 120px;
     margin-top: 47px;
     margin-left: -570px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+}
+
+.footer4 {
+    background: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-top: 47px;
+    margin-left: -1570px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
