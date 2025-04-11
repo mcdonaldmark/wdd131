@@ -61,7 +61,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-left: -1130px;
     margin-bottom: -40px;
     max-width: 110%;
@@ -174,7 +174,7 @@ footer {
     padding-bottom: 120px;
     padding-top: 120px;
     margin-top: 47px;
-    margin-left: -2020px;
+    margin-left: -2010px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
@@ -608,15 +608,14 @@ figcaption {
 }
 
 .shrink3 {
-    width: 12%;
-    height: 25%;
-    margin-left: -2040px;
-    margin-bottom: 58px;
-    margin-top: -1px;
+    width: 13.6%;
+    height: 30%;
+    margin-left: -2000px;
+    margin-bottom: 50px;
 }
 
 .title6 {
-    margin-left: -2030px;
+    margin-left: -1999px;
     font-size: 45px;
 }
 
@@ -679,7 +678,7 @@ figcaption {
         justify-content: space-evenly;
         background-color: black;
         margin-left: -300px;
-        margin-bottom: -150px;
+        margin-bottom: -120px;
     }
 
     nav a {
@@ -691,7 +690,6 @@ figcaption {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
-        padding: 0px 2% 0px 2%;
     }
 
     nav a:hover {
@@ -758,7 +756,7 @@ figcaption {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
-        margin-left: -260px;
+        margin-left: -229px;
     }
 
     .a6 {
@@ -770,7 +768,7 @@ figcaption {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
-        margin-left: -420px;
+        margin-left: -400px;
     }
 
     .a7 {
@@ -1303,15 +1301,14 @@ figcaption {
     }
 
     .shrink3 {
-        width: 13.5%;
-        height: 49%;
-        margin-left: -550px;
-        margin-bottom: 58px;
-        margin-top: -1px;
+        width: 13.6%;
+        height: 45%;
+        margin-left: -560px;
+        margin-bottom: 50px;
     }
 
     .title6 {
-        margin-left: -550px;
+        margin-left: -560px;
         font-size: 65px;
     }
 }
