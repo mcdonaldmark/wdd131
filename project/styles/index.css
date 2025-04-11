@@ -607,6 +607,22 @@ figcaption {
     width: 100%;
 }
 
+.footer3 {
+    background: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-top: 47px;
+    margin-left: -510px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+}
+
 .shrink3 {
     width: 13.6%;
     height: 30%;
