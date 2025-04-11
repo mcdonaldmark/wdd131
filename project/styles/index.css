@@ -67,6 +67,18 @@ nav {
     max-width: 110%;
 }
 
+.nav4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: -1130px;
+    margin-bottom: -40px;
+    max-width: 110%;
+}
+
 nav a {
     color: white;
     padding: 30px 20px;
@@ -664,6 +676,7 @@ figcaption {
         background-color: black;
         margin-left: -150px;
         margin-bottom: -120px;
+        width: 100%;
     }
 
     .nav1 {
@@ -697,6 +710,19 @@ figcaption {
         margin-bottom: -120px;
     }
 
+
+    .nav4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        margin-top: 100px;
+        margin-left: -1130px;
+        margin-bottom: -40px;
+        max-width: 110%;
+        overflow: hideen;
+}
     nav a {
         color: white;
         padding: 30px 20px;
