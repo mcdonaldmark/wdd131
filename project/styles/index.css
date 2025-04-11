@@ -62,7 +62,7 @@ nav {
     justify-content: space-evenly;
     background-color: black;
     margin-top: 80px;
-    margin-left: -1004px;
+    margin-left: -1130px;
     margin-bottom: -40px;
     max-width: 110%;
 }
@@ -174,7 +174,7 @@ footer {
     padding-bottom: 120px;
     padding-top: 120px;
     margin-top: 47px;
-    margin-left: -570px;
+    margin-left: -2020px;
     color: #000000;
     font-weight: 900;
     line-height: 30px;
@@ -605,6 +605,19 @@ figcaption {
     margin-top: 50px;
     margin-left: 280px;
     width: 100%;
+}
+
+.shrink3 {
+    width: 12%;
+    height: 25%;
+    margin-left: -2040px;
+    margin-bottom: 58px;
+    margin-top: -1px;
+}
+
+.title6 {
+    margin-left: -2030px;
+    font-size: 45px;
 }
 
 /* large view navigation ************************************/
@@ -1295,11 +1308,6 @@ figcaption {
         margin-left: -550px;
         margin-bottom: 58px;
         margin-top: -1px;
-    }
-
-    .title6 {
-        margin-left: -550px;
-        font-size: 65px;
     }
 
     .title6 {
