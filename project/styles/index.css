@@ -61,7 +61,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: -1004px;
     margin-bottom: -40px;
     max-width: 110%;
@@ -666,7 +666,7 @@ figcaption {
         justify-content: space-evenly;
         background-color: black;
         margin-left: -300px;
-        margin-bottom: -120px;
+        margin-bottom: -150px;
     }
 
     nav a {
@@ -678,6 +678,7 @@ figcaption {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
+        padding: 0px 2% 0px 2%;
     }
 
     nav a:hover {
@@ -732,6 +733,56 @@ figcaption {
         font-weight: 500;
         font-size: 20px;
         margin-left: -900px;
+        margin-right: 50px;
+    }
+
+    .a5 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -260px;
+    }
+
+    .a6 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -420px;
+    }
+
+    .a7 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -410px;
+        margin-right: 700px;
+    }
+
+    .a8 {
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -1200px;
         margin-right: 50px;
     }
 
@@ -1239,14 +1290,20 @@ figcaption {
     }
 
     .shrink3 {
-        width: 13.6%;
-        height: 45%;
-        margin-left: -560px;
-        margin-bottom: 50px;
+        width: 13.5%;
+        height: 49%;
+        margin-left: -550px;
+        margin-bottom: 58px;
+        margin-top: -1px;
     }
 
     .title6 {
-        margin-left: -560px;
+        margin-left: -550px;
+        font-size: 65px;
+    }
+
+    .title6 {
+        margin-left: -550px;
         font-size: 65px;
     }
 }
